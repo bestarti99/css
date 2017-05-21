@@ -59,3 +59,27 @@ header h2 ~ h3
     background: yellow ;
     
 }
+
+/* selektor wykluczający */
+#wykluczajacy >li:not(.last){
+    color: coral;
+}
+
+#wykluczajacy
+{
+    list-style-type: none;
+    
+}
+
+/*selektor kolejnego elementu potomnego */
+/*  #nth >li:nth-child(event) - wszystkie elementy parzyste 
+    #nth >li:nth-child(odd) - wszystkie elementy nieparzyste 
+    #nth >li:nth-child(-n+3) - pierwsze 3 elementy  
+    wyszukiwanie hasło nth-child np w3cschools */
+
+#nth >li:nth-child(2){
+    background: red;
+    font-size: 28px;
+}
+
+
