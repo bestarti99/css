@@ -36,4 +36,26 @@ li > a
     color: aqua;
 }
 
+/* Selektor elementów potomnych */
+div p
+{
+    background: pink;
+    color: blue;
+    font-size: 30px;
+}
 
+/* selektor rodzeństwa bezpośredniego - działa tylko na pierwszy element*/
+div p + a
+{
+    background: grey;
+    color: bisque;
+    text-transform: uppercase;
+}
+
+/* selektor rodzeństwa */
+header h2 ~ h3
+{
+   color: blueviolet; 
+    background: yellow ;
+    
+}
