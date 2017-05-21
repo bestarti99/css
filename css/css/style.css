@@ -1,7 +1,39 @@
 /* selektor znacznika */
-p
+p 
 {
-color:blue;
-font-size: 18px;
-background: yellow;
+    color: blue;
+    font-size: 18px;
+    background: yellow;
 }
+
+/* selekttor id */
+#identyfikator
+{
+    background: grey;
+    color: white;
+    font-size: 21 px;
+}
+
+/* selektor klasy */
+
+.przyklad
+{
+    background: blue;
+    color: black;
+    font-size: 16px;
+}
+
+/* łączenie selektorów */
+a, span {
+    color: red;
+    text-decoration: underline;
+}
+
+/* selektor baezpośredniego potomka */
+li > a
+{
+    font-size: 20px;
+    color: aqua;
+}
+
+
